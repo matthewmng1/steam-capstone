@@ -61,5 +61,9 @@
   "devDependencies": {
     "dotenv-webpack": "^8.0.1",
     "react-error-overlay": "^6.0.9"
+  },
+  "browser": {
+    "crypto": false,
+    "stream": false
   }
 }
