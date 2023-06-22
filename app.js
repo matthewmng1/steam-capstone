@@ -14,6 +14,15 @@ const steamRoutes = require("./routes/steamApps");
 const app = express();
 const buildPath = path.join(__dirname, 'build')
 
+const allowedOrigins = [
+  'http://localhost:3001', 
+  'https://steam-capstone.onrender.com/',
+]
+app.use(cors({
+  origin: allowedOrigins,
+}));
+
+
 app.use(cors());
 app.use(express.static(buildPath))
 app.use(express.json());
