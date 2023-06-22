@@ -1,0 +1,49 @@
+.appnews{
+  text-align: center;
+}
+
+.appnews-header {
+  position: relative;
+}
+
+.appnews-list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);;
+  list-style-type: none;
+  gap: 20px 20px;
+}
+
+
+.btn-container{
+  padding-bottom: 10px;
+}
+.dash-button{
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px 12px 3px 12px;
+  color: rgb(255, 0, 255);
+}
+
+.dash-button:hover{
+  color: aqua;
+  background-color: #8c767d;
+  opacity: .5;
+  border-radius: 20px;
+}
+
+.appnews-img{
+  width: 100%;
+  border-radius: 10px;
+  opacity: .9;
+}
+
+.title{
+  color:#8c767d;
+  font-size: 4em;
+  -webkit-text-stroke: 2.5px  black;
+}

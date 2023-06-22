@@ -1,0 +1,27 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-color: rgb(22, 12, 81);
+  width: 15em;
+  height: 10em;
+}
+
+
+.card:hover{
+  /* opacity: 0.4; */
+  filter: brightness(50%);
+}
+
+.card-title{
+  color: slategray
+}
+
+.card:hover .card-title{
+  color: #131e2f;
+  font-size: large;
+  font-weight: bold;
+  -webkit-text-stroke: .5px white;
+}

@@ -1,0 +1,35 @@
+.applistcard{
+  color: #270f12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.applistcard-link{
+  text-decoration: none;
+  background-color: #71798b;
+  border-radius: 10px;
+  opacity: .8;
+}
+
+.applistcard-link:hover{
+  filter: brightness(150%);
+  border-color: #270f12;
+}
+
+.applistcard-content {
+  width: 100%; 
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+

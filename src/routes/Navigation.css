@@ -1,0 +1,47 @@
+.Navigation {
+  background-image: url(../images/steam_binary.jpeg);
+  border-bottom: 4px solid lightsteelblue;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.navbar-nav{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+li{
+  display: inline-block;
+  margin-left: 2em;
+  border: 3px;
+}
+
+.navbar-brand {
+  font-size: x-large;
+  margin: auto;
+  width: 50%;
+  padding:1px;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.navbar-brand img{
+  padding-top: 15px;
+  width: 20vw;
+}
+
+.nav-item:hover{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

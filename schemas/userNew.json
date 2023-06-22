@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "required": [
+      "user"
+  ],
+  "properties": {
+      "user": {
+          "type": "object",
+          "required": [
+              "username",
+              "firstName",
+              "lastName",
+              "email",
+              "isAdmin"
+          ],
+          "properties": {
+              "username": {
+                  "type": "string"
+              },
+              "firstName": {
+                  "type": "string"
+              },
+              "lastName": {
+                  "type": "string"
+              },
+              "email": {
+                  "type": "string"
+              },
+              "isAdmin": {
+                  "type": "boolean"
+              }
+          }
+      }
+  }
+}
