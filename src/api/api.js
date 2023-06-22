@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3000"
-// const BASE_URL = process.env.REACT_APP_BASE_URL || "https://capstone-steam-db.onrender.com"
+// const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3000"
+const BASE_URL = process.env.REACT_APP_BASE_URL || "https://steam-capstone.onrender.com"
 
 
 
