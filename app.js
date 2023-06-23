@@ -20,9 +20,6 @@ app.use(cors({
   origin: allowedOrigins,
 }));
 
-
-app.use(cors());
-app.use(express.static(buildPath))
 app.use(express.json());
 app.use(authenticateJWT);
 
